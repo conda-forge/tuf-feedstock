@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "6.0.0"
+  version: "7.0.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tuf/tuf-${{ version }}.tar.gz
-  sha256: 9eed0f7888c5fff45dc62164ff243a05d47fb8a3208035eb268974287e0aee8d
+  sha256: 9d2e6723538e0d5a3e482b6de805fcfe64481448d5853039ba6b06ba541efd7f
 
 build:
   number: 0
